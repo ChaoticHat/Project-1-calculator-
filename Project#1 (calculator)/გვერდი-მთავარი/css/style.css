@@ -282,6 +282,12 @@ button {
      color: #fdd430;
 }
 
+.navstyle {
+     font-size: 17px;
+}
+.navbarstyle {
+     margin-top: 25px;
+}
 
 /*-- header area --*/
 
@@ -353,7 +359,7 @@ button {
 }
 
 .text-img figure img {
-     width: 100%;
+     width: 90%;
 }
 
 .titlepage {
