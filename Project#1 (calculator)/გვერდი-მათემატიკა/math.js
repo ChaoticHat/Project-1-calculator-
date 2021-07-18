@@ -67,7 +67,7 @@ $(function() {
 		expression = expression.slice(0, -count);
 	}
 
-	// ask for a result ----------------------------------------------------------
+	// ----------------------------------------------------------
 	$('.enter').click(
 		function() {
 
@@ -106,14 +106,14 @@ $(function() {
 		}
 	);
 
-	// clear the screen ----------------------------------------------------------
+	// ----------------------------------------------------------
 	$('.cbac').click(
 		function() {
 			defaults();
 		}
 	);
 
-	// add a number to the screen ------------------------------------------------
+	// ------------------------------------------------
 	$('.cbnum').click(
 		function() {
 			var key = $(this).attr('key');
@@ -133,7 +133,7 @@ $(function() {
 		}
 	);
 
-	// add an operator to the screen if there's no other operator ----------------
+	// ----------------
 	$('.cbop').click(
 		function() {
 			var key = $(this).attr('key');
@@ -169,7 +169,7 @@ $(function() {
 		}
 	);
 
-	// add a parentheses both to screen and to a global var ----------------------
+	// ----------------------
 	$('.cbpar').click(
 		function() {
 			var key = $(this).attr('key');
@@ -197,7 +197,7 @@ $(function() {
 
 	);
 
-	// add a function, change parentheses ----------------------------------------
+	// ----------------------------------------
 	$('.cbfun').click(
 		function() {
 			var key1 = $(this).attr('key1');
@@ -226,7 +226,7 @@ $(function() {
 		}
 	);
 
-	// append the old result to the expression-----------------------------------------
+	// -----------------------------------------
 	$('.cbans').click(
 		function() {
 			if (ansOnScreen) {
@@ -241,14 +241,14 @@ $(function() {
 		}
 	);
 
-	// invert trig functions ----------------------------------------------------------
+	//  ----------------------------------------------------------
 	$('.cbinv').click(
 		function() {
 			toggleInverted();
 		}
 	);
 
-	// backspace -----------------------------------------------------------------------
+	//  -----------------------------------------------------------------------
 	$('.cbce').click(
 		function() {
 			if (inverted) {
@@ -267,7 +267,7 @@ $(function() {
 		}
 	);
 
-	// Insert a random number ---------------------------------------------------------
+	// ---------------------------------------------------------
 	$('.cbrnd').click(
 		function() {
 			var key = Math.random().toPrecision(8);
