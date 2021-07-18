@@ -57,13 +57,13 @@ body {
   border-bottom: 2px solid gainsboro;
 }
 .header h1 {
-  color: #ff7729;
+  color: rgba(38, 0, 255, 0.7);
 }
 .shoot {
   color: #efefef;
 }
 .shoot:hover {
-  color: #00aae3;
+  color: rgba(174, 74, 255, 0.7);
 }
 
 .footer {
@@ -136,13 +136,13 @@ span#loses,
 span#wins {
   font-size: 48px;
   font-size: 4.8rem;
-  color: #00aae3;
+  color: rgba(174, 74, 255, 0.7);
   font-family: "haymakerregular", Helvetica, Arial, sans-serif;
 }
 .score-divider span {
   font-size: 40px;
   font-size: 4rem;
-  color: #00aae3;
+  color: rgb(82, 82, 82);
   font-weight: 200;
 }
 div.score-num,
