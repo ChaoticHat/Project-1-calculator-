@@ -1,4 +1,4 @@
-function manZili(){
+function manzili(){
     var masivi = [];
     var s = 0;
     for(var i = 0; i < 1; i++){
