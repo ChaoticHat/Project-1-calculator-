@@ -9,22 +9,26 @@
 </head>
 <body>
     <header class="header">
+        <div class="goback">
+          <a href="../გვერდი-მთავარი/index.html"><img src="../გვერდი-მთავარი/images/back-arrow.png"></a>
+        </div>
         <div class="title">
           <h1>Rock,Paper,Scissors</h1>
         </div>
-      </header>
+    </header>
       <main>
-      <div>
-        <div class="flexbox">
-          <section class="content">
-            <button class="play rock" type="button" onclick="play('rock')"></button>
-            <button class="play paper" type="button" onclick="play('paper')"></button>
-            <button class="play scissors" type="button" onclick="play('scissors')"></button>
+      <section>
+        <div>         
+            <div class="flexchooser">
+              <div><button class="play rock" type="button" onclick="play('rock')"></button></div>
+              <div><button class="play paper" type="button" onclick="play('paper')"></button></div>
+              <div><button class="play scissors" type="button" onclick="play('scissors')"></button></div>
+            </div>
             <div style="clear:both;"></div>
             <p><span id="player"></span> <span id="opponent"></span></p>
             <h2 id="results"></h2>
-          </section>
-          <aside class="aside">
+
+            <aside class="aside">
             <div class="scorebox">
               <h2>Score</h2>
               <div class="score-num"><span id="wins">0</span> <br />wins</div>
@@ -34,7 +38,7 @@
             <button type="reset" id="reset" onclick="reset()">reset scores</button>
           </aside>
         </div>
-      </div>
+      </section>
     </main>
       <script src="game1.js"></script>
 </body>
